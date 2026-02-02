@@ -52,21 +52,6 @@ The primary focus of this repository is:
 
 
 
----
-
-
-
-\## ▶️ Run Locally
-
-
-
-\### 1. Clone repository
-
-```bash
-
-git clone <your-repo-url>
-
-cd MYPROJECT
 
 
 
