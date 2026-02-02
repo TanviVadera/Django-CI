@@ -1,57 +1,27 @@
-\# Django CI/CD Automation Project
+# Django CI/CD with Docker 🚀
 
-
-
-A minimal Django-based project created to demonstrate \*\*CI/CD automation\*\*
-
-using GitHub Actions.
-
-
-
-The primary focus of this repository is:
-
-\- Continuous Integration workflow
-
-\- Automated test execution
-
-\- Clean and minimal project structure
-
-
+A simple Django application containerized using Docker and integrated with GitHub Actions for Continuous Integration (CI).
 
 ---
 
-
-
-\## 🎯 Project Focus
-
-\- CI/CD pipeline using GitHub Actions
-
-\- Automatic test execution on Python file changes
-
-\- Simple Django setup used only as a test runner
-
-
-
-> Note: Django is used here as a lightweight framework to support
-
-> automated testing and CI demonstration.
-
-
+## 🔧 Tech Stack
+- Python 3.11
+- Django
+- Docker
+- GitHub Actions
 
 ---
 
+## ⚙️ Features
+- Dockerized Django application
+- Automated testing with GitHub Actions
+- Run Django inside a Docker container
+- Beginner-friendly DevOps project
 
+---
 
-\## 🛠 Tech Stack
+## ▶️ Run Using Docker
 
-\- Python
-
-\- Django
-
-\- GitHub Actions (CI)
-
-
-
-
-
-
+```bash
+docker build -t django-image .
+docker run -d -p 8000:8000 --name django-container django-image
