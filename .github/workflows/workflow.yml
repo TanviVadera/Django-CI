@@ -26,3 +26,6 @@ jobs:
       - name: Run test
         run: |
           python manage.py test
+
+      - name: Docker-image build
+        run: docker build -t djgano-image .
