@@ -1,40 +1,28 @@
 # Django CI/CD with Docker 🚀
 
-A simple Django application containerized using Docker and integrated with GitHub Actions for Continuous Integration (CI).
+A simple Django application containerized using Docker and integrated with GitHub Actions.
 
----
-
-## 🔧 Tech Stack
+## Tech Stack
 - Python 3.11
 - Django
 - Docker
 - GitHub Actions
 
----
-
-## ⚙️ Features
+## Features
 - Dockerized Django application
 - Automated testing with GitHub Actions
 - Run Django inside a Docker container
-- Beginner-friendly DevOps project
 
----
+## Run Using Docker
 
-## ▶️ Run Using Docker
-
-```bash
+1. Build Docker Image:
 docker build -t django-image:v3 .
+
+2. Run Docker Container:
 docker run -d -p 8000:8000 --name django-container django-image:v3
 
-2. Run Docker Container
-docker run -d -p 8000:8000 --name django-container django-image:v3
-
-3. Access in Browser
-
-Open:
-
+3. Access in Browser:
 http://localhost:8000
 
-👩‍💻 Author
-
+## Author
 Tanvi Vadera
