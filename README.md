@@ -25,3 +25,16 @@ A simple Django application containerized using Docker and integrated with GitHu
 ```bash
 docker build -t django-image:v3 .
 docker run -d -p 8000:8000 --name django-container django-image:v3
+
+2. Run Docker Container
+docker run -d -p 8000:8000 --name django-container django-image:v3
+
+3. Access in Browser
+
+Open:
+
+http://localhost:8000
+
+👩‍💻 Author
+
+Tanvi Vadera
